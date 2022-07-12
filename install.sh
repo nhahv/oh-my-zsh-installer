@@ -47,7 +47,7 @@ check_zsh_version() {
     fi
 }
 
-install_packet zsh vim curl git
+install_packet zsh curl git vim
 check_zsh_version
 
 export TERM=xterm-256color
