@@ -22,6 +22,7 @@ echo $OS - $OSVER
 install_packet() {
     echo "========== [$OS - $OSVER] Package install $@ =========="
     for p in $@; do
+        echo "Installing $p"
         if ! command -v $p >/dev/null; then
             if [ $OS = "debian" ]; then
                 apt-get install -y "$p"

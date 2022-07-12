@@ -3,7 +3,7 @@
 ## INSTALL
 
 ```bash
-sh -c "$(curl -fsSL https://raw.github.com/nhahv/oh-my-zsh-installer/master/install.sh)"
+sh -c "$(curl -fsSL https://raw.github.com/nhahv/oh-my-zsh-installer/main/install.sh)"
 ```
 
 ## INFO
