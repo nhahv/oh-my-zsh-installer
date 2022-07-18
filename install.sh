@@ -113,4 +113,5 @@ echo "[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh" >>~/.zshrc
 curl -s -Lo $HOME/.p10k.zsh "https://gist.githubusercontent.com/nhahv/5cf111134fcc812b5bb96958d055c94d/raw/fc829bcc554fadc4332b857793537027fe92a220/p10k-rainbow-slanted.zsh"
 success "Success Install ZSH"
 echo POWERLEVEL9K_DISABLE_GITSTATUS=true >>~/.zshrc
+echo export TERM=xterm-256color >>~/.zshrc
 zsh
