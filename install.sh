@@ -111,8 +111,7 @@ if [ -f $HOME/.zshrc ]; then
 fi
 echo "[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh" >>~/.zshrc
 curl -s -Lo $HOME/.p10k.zsh "https://raw.githubusercontent.com/nhahv/oh-my-zsh-installer/main/.p10k.zsh"
-echo POWERLEVEL9K_DISABLE_GITSTATUS=true >>~/.zshrc
+echo typeset -g POWERLEVEL9K_DISABLE_GITSTATUS=true >>~/.zshrc
 echo export TERM=xterm-256color >>~/.zshrc
-echo "# typeset -g POWERLEVEL9K_OS_ICON_CONTENT_EXPANSION='⭐'" >>~/.zshrc
 success "Success Install ZSH"
 zsh
